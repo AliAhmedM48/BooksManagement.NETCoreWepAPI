@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "7dd1ed65-d846-4014-b174-b7cd4703f548",
+		"name": "RESTful Books Management API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32429994"
+	},
+	"item": [
+		{
+			"name": "Books",
+			"item": [
+				{
+					"name": "Books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/books",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/books/85",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books",
+								"85"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"The Great Gatsby\",\r\n  \"description\": \"A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties.\",\r\n  \"price\": 15.99,\r\n  \"author\": \"F. Scott Fitzgerald\",\r\n  \"stock\": 50,\r\n  \"categoryId\": 3\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/books",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"The Great Gatsby\",\r\n  \"description\": \"A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties.\",\r\n  \"price\": 15.99,\r\n  \"author\": \"F. Scott Fitzgerald\",\r\n  \"stock\": 50,\r\n  \"categoryId\": 1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/books/85",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books",
+								"85"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"The Great Gatsby\",\r\n  \"description\": \"A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties.\",\r\n  \"price\": 15.99,\r\n  \"author\": \"F. Scott Fitzgerald\",\r\n  \"stock\": 50,\r\n  \"categoryId\": 1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/books/85",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books",
+								"85"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/categories",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/categories/7",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"name\": \"Technology\",\r\n    \"description\": \"Books about modern advancements, innovations, and trends in technology.\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/categories",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"name\": \"Biography\",\r\n    \"description\": \"Books about the lives of real people, offering insights into their experiences.\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/categories/7",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"name\": \"Biography\",\r\n    \"description\": \"Books about the lives of real people, offering insights into their experiences.\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/categories/7",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"categories",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://localhost:7065/api",
+			"type": "string"
+		}
+	]
+}
