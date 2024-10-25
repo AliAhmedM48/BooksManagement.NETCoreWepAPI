@@ -1,0 +1,722 @@
+[
+  {
+    "Id": 1,
+    "Name": "1984",
+    "Description": "A dystopian social science fiction novel by George Orwell.",
+    "Price": 9.99,
+    "Author": "George Orwell",
+    "Stock": 45,
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Brave New World",
+    "Description": "A dystopian novel by Aldous Huxley.",
+    "Price": 10.50,
+    "Author": "Aldous Huxley",
+    "Stock": 34,
+    "CategoryId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "To Kill a Mockingbird",
+    "Description": "A novel by Harper Lee about racial injustice.",
+    "Price": 7.99,
+    "Author": "Harper Lee",
+    "Stock": 50,
+    "CategoryId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Frankenstein",
+    "Description": "A science fiction horror novel by Mary Shelley.",
+    "Price": 8.99,
+    "Author": "Mary Shelley",
+    "Stock": 60,
+    "CategoryId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "The Great Gatsby",
+    "Description": "A novel by F. Scott Fitzgerald about wealth and society.",
+    "Price": 12.99,
+    "Author": "F. Scott Fitzgerald",
+    "Stock": 29,
+    "CategoryId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "Moby Dick",
+    "Description": "A novel by Herman Melville about a sea voyage and a whale.",
+    "Price": 11.49,
+    "Author": "Herman Melville",
+    "Stock": 20,
+    "CategoryId": 1
+  },
+  {
+    "Id": 7,
+    "Name": "The Catcher in the Rye",
+    "Description": "A novel by J.D. Salinger about teenage alienation.",
+    "Price": 9.50,
+    "Author": "J.D. Salinger",
+    "Stock": 37,
+    "CategoryId": 1
+  },
+  {
+    "Id": 8,
+    "Name": "The Road",
+    "Description": "A post-apocalyptic novel by Cormac McCarthy.",
+    "Price": 14.00,
+    "Author": "Cormac McCarthy",
+    "Stock": 48,
+    "CategoryId": 1
+  },
+  {
+    "Id": 9,
+    "Name": "Dune",
+    "Description": "A science fiction novel by Frank Herbert.",
+    "Price": 13.50,
+    "Author": "Frank Herbert",
+    "Stock": 65,
+    "CategoryId": 1
+  },
+  {
+    "Id": 10,
+    "Name": "The Lord of the Rings",
+    "Description": "A fantasy novel by J.R.R. Tolkien.",
+    "Price": 20.99,
+    "Author": "J.R.R. Tolkien",
+    "Stock": 18,
+    "CategoryId": 1
+  },
+  {
+    "Id": 11,
+    "Name": "A Brief History of Time",
+    "Description": "A popular science book on cosmology by Stephen Hawking.",
+    "Price": 15.99,
+    "Author": "Stephen Hawking",
+    "Stock": 40,
+    "CategoryId": 2
+  },
+  {
+    "Id": 12,
+    "Name": "The Selfish Gene",
+    "Description": "A book about evolution by Richard Dawkins.",
+    "Price": 16.50,
+    "Author": "Richard Dawkins",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 13,
+    "Name": "Sapiens: A Brief History of Humankind",
+    "Description": "A book about the history of humans by Yuval Noah Harari.",
+    "Price": 18.00,
+    "Author": "Yuval Noah Harari",
+    "Stock": 30,
+    "CategoryId": 2
+  },
+  {
+    "Id": 14,
+    "Name": "The Origin of Species",
+    "Description": "A book by Charles Darwin about evolution and natural selection.",
+    "Price": 12.99,
+    "Author": "Charles Darwin",
+    "Stock": 19,
+    "CategoryId": 2
+  },
+  {
+    "Id": 15,
+    "Name": "Cosmos",
+    "Description": "A book by Carl Sagan on astronomy and science.",
+    "Price": 14.99,
+    "Author": "Carl Sagan",
+    "Stock": 52,
+    "CategoryId": 2
+  },
+  {
+    "Id": 16,
+    "Name": "The Elegant Universe",
+    "Description": "A book by Brian Greene about string theory.",
+    "Price": 13.49,
+    "Author": "Brian Greene",
+    "Stock": 26,
+    "CategoryId": 2
+  },
+  {
+    "Id": 17,
+    "Name": "Astrophysics for People in a Hurry",
+    "Description": "A book by Neil deGrasse Tyson offering an introduction to astrophysics.",
+    "Price": 10.99,
+    "Author": "Neil deGrasse Tyson",
+    "Stock": 42,
+    "CategoryId": 2
+  },
+  {
+    "Id": 18,
+    "Name": "The Gene: An Intimate History",
+    "Description": "A book by Siddhartha Mukherjee about the science of genetics.",
+    "Price": 17.99,
+    "Author": "Siddhartha Mukherjee",
+    "Stock": 33,
+    "CategoryId": 2
+  },
+  {
+    "Id": 19,
+    "Name": "Guns, Germs, and Steel",
+    "Description": "A book by Jared Diamond about human societies.",
+    "Price": 19.99,
+    "Author": "Jared Diamond",
+    "Stock": 15,
+    "CategoryId": 2
+  },
+  {
+    "Id": 20,
+    "Name": "The Immortal Life of Henrietta Lacks",
+    "Description": "A book by Rebecca Skloot about a woman whose cells were used in research.",
+    "Price": 12.00,
+    "Author": "Rebecca Skloot",
+    "Stock": 28,
+    "CategoryId": 2
+  },
+  {
+    "Id": 21,
+    "Name": "The Diary of a Young Girl",
+    "Description": "A historical account of Anne Frank's life in hiding during World War II.",
+    "Price": 10.99,
+    "Author": "Anne Frank",
+    "Stock": 47,
+    "CategoryId": 3
+  },
+  {
+    "Id": 22,
+    "Name": "The History of the Ancient World",
+    "Description": "A history book by Susan Wise Bauer covering ancient civilizations.",
+    "Price": 22.00,
+    "Author": "Susan Wise Bauer",
+    "Stock": 21,
+    "CategoryId": 3
+  },
+  {
+    "Id": 23,
+    "Name": "Team of Rivals: The Political Genius of Abraham Lincoln",
+    "Description": "A biography of Abraham Lincoln by Doris Kearns Goodwin.",
+    "Price": 24.99,
+    "Author": "Doris Kearns Goodwin",
+    "Stock": 12,
+    "CategoryId": 3
+  },
+  {
+    "Id": 24,
+    "Name": "The Guns of August",
+    "Description": "A history book by Barbara W. Tuchman about the outbreak of World War I.",
+    "Price": 17.50,
+    "Author": "Barbara W. Tuchman",
+    "Stock": 16,
+    "CategoryId": 3
+  },
+  {
+    "Id": 25,
+    "Name": "1776",
+    "Description": "A book by David McCullough about the American Revolution.",
+    "Price": 20.99,
+    "Author": "David McCullough",
+    "Stock": 27,
+    "CategoryId": 3
+  },
+  {
+    "Id": 26,
+    "Name": "Genghis Khan and the Making of the Modern World",
+    "Description": "A book by Jack Weatherford about the Mongol Empire.",
+    "Price": 19.00,
+    "Author": "Jack Weatherford",
+    "Stock": 23,
+    "CategoryId": 3
+  },
+  {
+    "Id": 27,
+    "Name": "John Adams",
+    "Description": "A biography of John Adams by David McCullough.",
+    "Price": 21.99,
+    "Author": "David McCullough",
+    "Stock": 19,
+    "CategoryId": 3
+  },
+  {
+    "Id": 28,
+    "Name": "Alexander Hamilton",
+    "Description": "A biography of Alexander Hamilton by Ron Chernow.",
+    "Price": 25.00,
+    "Author": "Ron Chernow",
+    "Stock": 17,
+    "CategoryId": 3
+  },
+  {
+    "Id": 29,
+    "Name": "The Wright Brothers",
+    "Description": "A book by David McCullough about the inventors of the airplane.",
+    "Price": 18.99,
+    "Author": "David McCullough",
+    "Stock": 22,
+    "CategoryId": 3
+  },
+  {
+    "Id": 30,
+    "Name": "The Rise and Fall of the Third Reich",
+    "Description": "A history book by William L. Shirer about Nazi Germany.",
+    "Price": 26.50,
+    "Author": "William L. Shirer",
+    "Stock": 14,
+    "CategoryId": 3
+  },
+  {
+    "Id": 31,
+    "Name": "Pride and Prejudice",
+    "Description": "A romantic novel by Jane Austen.",
+    "Price": 8.99,
+    "Author": "Jane Austen",
+    "Stock": 50,
+    "CategoryId": 1
+  },
+  {
+    "Id": 32,
+    "Name": "The Hobbit",
+    "Description": "A fantasy novel by J.R.R. Tolkien.",
+    "Price": 12.50,
+    "Author": "J.R.R. Tolkien",
+    "Stock": 35,
+    "CategoryId": 1
+  },
+  {
+    "Id": 33,
+    "Name": "War and Peace",
+    "Description": "A historical novel by Leo Tolstoy about Napoleonic Wars.",
+    "Price": 17.99,
+    "Author": "Leo Tolstoy",
+    "Stock": 22,
+    "CategoryId": 1
+  },
+  {
+    "Id": 34,
+    "Name": "Jane Eyre",
+    "Description": "A novel by Charlotte Brontë about a young woman's resilience.",
+    "Price": 10.50,
+    "Author": "Charlotte Brontë",
+    "Stock": 38,
+    "CategoryId": 1
+  },
+  {
+    "Id": 35,
+    "Name": "The Picture of Dorian Gray",
+    "Description": "A novel by Oscar Wilde about vanity and morality.",
+    "Price": 7.99,
+    "Author": "Oscar Wilde",
+    "Stock": 43,
+    "CategoryId": 1
+  },
+  {
+    "Id": 36,
+    "Name": "Anna Karenina",
+    "Description": "A novel by Leo Tolstoy about love and tragedy.",
+    "Price": 15.99,
+    "Author": "Leo Tolstoy",
+    "Stock": 27,
+    "CategoryId": 1
+  },
+  {
+    "Id": 37,
+    "Name": "The Odyssey",
+    "Description": "An ancient Greek epic poem by Homer.",
+    "Price": 9.99,
+    "Author": "Homer",
+    "Stock": 55,
+    "CategoryId": 1
+  },
+  {
+    "Id": 38,
+    "Name": "Wuthering Heights",
+    "Description": "A Gothic novel by Emily Brontë.",
+    "Price": 11.99,
+    "Author": "Emily Brontë",
+    "Stock": 40,
+    "CategoryId": 1
+  },
+  {
+    "Id": 39,
+    "Name": "Crime and Punishment",
+    "Description": "A philosophical novel by Fyodor Dostoevsky.",
+    "Price": 13.99,
+    "Author": "Fyodor Dostoevsky",
+    "Stock": 30,
+    "CategoryId": 1
+  },
+  {
+    "Id": 40,
+    "Name": "The Count of Monte Cristo",
+    "Description": "A novel by Alexandre Dumas about revenge and justice.",
+    "Price": 14.99,
+    "Author": "Alexandre Dumas",
+    "Stock": 18,
+    "CategoryId": 1
+  },
+  {
+    "Id": 41,
+    "Name": "Dracula",
+    "Description": "A Gothic horror novel by Bram Stoker.",
+    "Price": 10.99,
+    "Author": "Bram Stoker",
+    "Stock": 26,
+    "CategoryId": 1
+  },
+  {
+    "Id": 42,
+    "Name": "The War of the Worlds",
+    "Description": "A science fiction novel by H.G. Wells.",
+    "Price": 9.50,
+    "Author": "H.G. Wells",
+    "Stock": 50,
+    "CategoryId": 1
+  },
+  {
+    "Id": 43,
+    "Name": "Fahrenheit 451",
+    "Description": "A dystopian novel by Ray Bradbury about book burning.",
+    "Price": 11.99,
+    "Author": "Ray Bradbury",
+    "Stock": 34,
+    "CategoryId": 1
+  },
+  {
+    "Id": 44,
+    "Name": "The Time Machine",
+    "Description": "A science fiction novel by H.G. Wells about time travel.",
+    "Price": 8.99,
+    "Author": "H.G. Wells",
+    "Stock": 44,
+    "CategoryId": 1
+  },
+  {
+    "Id": 45,
+    "Name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "Description": "A novel by Robert Louis Stevenson about dual personalities.",
+    "Price": 7.99,
+    "Author": "Robert Louis Stevenson",
+    "Stock": 42,
+    "CategoryId": 1
+  },
+  {
+    "Id": 46,
+    "Name": "Les Misérables",
+    "Description": "A novel by Victor Hugo about justice and redemption.",
+    "Price": 18.99,
+    "Author": "Victor Hugo",
+    "Stock": 22,
+    "CategoryId": 1
+  },
+  {
+    "Id": 47,
+    "Name": "Moby-Dick",
+    "Description": "A novel by Herman Melville about a whaling ship captain's obsession.",
+    "Price": 16.99,
+    "Author": "Herman Melville",
+    "Stock": 29,
+    "CategoryId": 1
+  },
+  {
+    "Id": 48,
+    "Name": "Middlemarch",
+    "Description": "A novel by George Eliot about a small-town community.",
+    "Price": 11.99,
+    "Author": "George Eliot",
+    "Stock": 31,
+    "CategoryId": 1
+  },
+  {
+    "Id": 49,
+    "Name": "Great Expectations",
+    "Description": "A novel by Charles Dickens about a young boy's journey.",
+    "Price": 9.99,
+    "Author": "Charles Dickens",
+    "Stock": 48,
+    "CategoryId": 1
+  },
+  {
+    "Id": 50,
+    "Name": "Bleak House",
+    "Description": "A novel by Charles Dickens about the intricacies of the British legal system.",
+    "Price": 13.50,
+    "Author": "Charles Dickens",
+    "Stock": 27,
+    "CategoryId": 1
+  },
+  {
+    "Id": 51,
+    "Name": "The Wealth of Nations",
+    "Description": "A book by Adam Smith on economics.",
+    "Price": 14.99,
+    "Author": "Adam Smith",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 52,
+    "Name": "The Double Helix",
+    "Description": "A book by James D. Watson on the discovery of DNA.",
+    "Price": 16.50,
+    "Author": "James D. Watson",
+    "Stock": 12,
+    "CategoryId": 2
+  },
+  {
+    "Id": 53,
+    "Name": "The Man Who Knew Infinity",
+    "Description": "A biography of mathematician Srinivasa Ramanujan by Robert Kanigel.",
+    "Price": 18.00,
+    "Author": "Robert Kanigel",
+    "Stock": 16,
+    "CategoryId": 2
+  },
+  {
+    "Id": 54,
+    "Name": "The Innovators",
+    "Description": "A book by Walter Isaacson about the history of technology and innovators.",
+    "Price": 17.99,
+    "Author": "Walter Isaacson",
+    "Stock": 24,
+    "CategoryId": 2
+  },
+  {
+    "Id": 55,
+    "Name": "Sapiens: A Brief History of Humankind",
+    "Description": "A book by Yuval Noah Harari that explores the history of humanity.",
+    "Price": 19.99,
+    "Author": "Yuval Noah Harari",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 56,
+    "Name": "The Selfish Gene",
+    "Description": "A book by Richard Dawkins about evolution.",
+    "Price": 15.99,
+    "Author": "Richard Dawkins",
+    "Stock": 18,
+    "CategoryId": 2
+  },
+  {
+    "Id": 57,
+    "Name": "The Gene: An Intimate History",
+    "Description": "A book by Siddhartha Mukherjee about genetics.",
+    "Price": 22.99,
+    "Author": "Siddhartha Mukherjee",
+    "Stock": 19,
+    "CategoryId": 2
+  },
+  {
+    "Id": 58,
+    "Name": "Thinking, Fast and Slow",
+    "Description": "A book by Daniel Kahneman about cognitive biases and decision making.",
+    "Price": 14.99,
+    "Author": "Daniel Kahneman",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 59,
+    "Name": "The Emperor of All Maladies",
+    "Description": "A biography of cancer by Siddhartha Mukherjee.",
+    "Price": 18.50,
+    "Author": "Siddhartha Mukherjee",
+    "Stock": 20,
+    "CategoryId": 2
+  },
+  {
+    "Id": 60,
+    "Name": "Guns, Germs, and Steel",
+    "Description": "A book by Jared Diamond about the factors that shaped world history.",
+    "Price": 19.99,
+    "Author": "Jared Diamond",
+    "Stock": 25,
+    "CategoryId": 2
+  },
+  {
+    "Id": 61,
+    "Name": "Cosmos",
+    "Description": "A book by Carl Sagan about the universe and science.",
+    "Price": 16.50,
+    "Author": "Carl Sagan",
+    "Stock": 27,
+    "CategoryId": 2
+  },
+  {
+    "Id": 62,
+    "Name": "Astrophysics for People in a Hurry",
+    "Description": "A book by Neil deGrasse Tyson about astrophysics.",
+    "Price": 12.50,
+    "Author": "Neil deGrasse Tyson",
+    "Stock": 34,
+    "CategoryId": 2
+  },
+  {
+    "Id": 63,
+    "Name": "The Universe in a Nutshell",
+    "Description": "A book by Stephen Hawking about cosmology.",
+    "Price": 22.99,
+    "Author": "Stephen Hawking",
+    "Stock": 16,
+    "CategoryId": 2
+  },
+  {
+    "Id": 64,
+    "Name": "A Brief History of Time",
+    "Description": "A book by Stephen Hawking about the nature of time and the universe.",
+    "Price": 14.99,
+    "Author": "Stephen Hawking",
+    "Stock": 23,
+    "CategoryId": 2
+  },
+  {
+    "Id": 65,
+    "Name": "The Elegant Universe",
+    "Description": "A book by Brian Greene about string theory and the fabric of the cosmos.",
+    "Price": 19.99,
+    "Author": "Brian Greene",
+    "Stock": 12,
+    "CategoryId": 2
+  },
+  {
+    "Id": 66,
+    "Name": "Surely You're Joking, Mr. Feynman!",
+    "Description": "A memoir by physicist Richard Feynman.",
+    "Price": 13.99,
+    "Author": "Richard Feynman",
+    "Stock": 29,
+    "CategoryId": 2
+  },
+  {
+    "Id": 67,
+    "Name": "The Immortal Life of Henrietta Lacks",
+    "Description": "A book by Rebecca Skloot about the woman whose cancer cells were used for research.",
+    "Price": 15.99,
+    "Author": "Rebecca Skloot",
+    "Stock": 17,
+    "CategoryId": 2
+  },
+  {
+    "Id": 68,
+    "Name": "The Man Who Mistook His Wife for a Hat",
+    "Description": "A book by Oliver Sacks about neurological disorders.",
+    "Price": 12.99,
+    "Author": "Oliver Sacks",
+    "Stock": 24,
+    "CategoryId": 2
+  },
+  {
+    "Id": 69,
+    "Name": "Homo Deus: A Brief History of Tomorrow",
+    "Description": "A book by Yuval Noah Harari that explores the future of humanity.",
+    "Price": 18.50,
+    "Author": "Yuval Noah Harari",
+    "Stock": 23,
+    "CategoryId": 2
+  },
+  {
+    "Id": 70,
+    "Name": "The Self-Driven Child",
+    "Description": "A book by William Stixrud and Ned Johnson about the science of self-motivation.",
+    "Price": 13.99,
+    "Author": "William Stixrud and Ned Johnson",
+    "Stock": 30,
+    "CategoryId": 2
+  },
+  {
+    "Id": 71,
+    "Name": "Grit: The Power of Passion and Perseverance",
+    "Description": "A book by Angela Duckworth about success and resilience.",
+    "Price": 14.50,
+    "Author": "Angela Duckworth",
+    "Stock": 27,
+    "CategoryId": 2
+  },
+  {
+    "Id": 72,
+    "Name": "Educated",
+    "Description": "A memoir by Tara Westover about overcoming adversity through education.",
+    "Price": 16.99,
+    "Author": "Tara Westover",
+    "Stock": 20,
+    "CategoryId": 2
+  },
+  {
+    "Id": 73,
+    "Name": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+    "Description": "A book by Susan Cain about the value of introverts.",
+    "Price": 15.50,
+    "Author": "Susan Cain",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 74,
+    "Name": "Drive: The Surprising Truth About What Motivates Us",
+    "Description": "A book by Daniel H. Pink about motivation.",
+    "Price": 14.99,
+    "Author": "Daniel H. Pink",
+    "Stock": 26,
+    "CategoryId": 2
+  },
+  {
+    "Id": 75,
+    "Name": "Outliers: The Story of Success",
+    "Description": "A book by Malcolm Gladwell about the factors behind high achievement.",
+    "Price": 17.99,
+    "Author": "Malcolm Gladwell",
+    "Stock": 29,
+    "CategoryId": 2
+  },
+  {
+    "Id": 76,
+    "Name": "Atomic Habits",
+    "Description": "A book by James Clear about building good habits.",
+    "Price": 18.99,
+    "Author": "James Clear",
+    "Stock": 24,
+    "CategoryId": 2
+  },
+  {
+    "Id": 77,
+    "Name": "The Power of Habit",
+    "Description": "A book by Charles Duhigg about how habits shape our lives.",
+    "Price": 15.99,
+    "Author": "Charles Duhigg",
+    "Stock": 26,
+    "CategoryId": 2
+  },
+  {
+    "Id": 78,
+    "Name": "Why We Sleep",
+    "Description": "A book by Matthew Walker about the science of sleep.",
+    "Price": 17.50,
+    "Author": "Matthew Walker",
+    "Stock": 18,
+    "CategoryId": 2
+  },
+  {
+    "Id": 79,
+    "Name": "The Road to Serfdom",
+    "Description": "A book by Friedrich Hayek about the dangers of government overreach.",
+    "Price": 11.99,
+    "Author": "Friedrich Hayek",
+    "Stock": 22,
+    "CategoryId": 2
+  },
+  {
+    "Id": 80,
+    "Name": "Capital in the Twenty-First Century",
+    "Description": "A book by Thomas Piketty about economic inequality.",
+    "Price": 18.99,
+    "Author": "Thomas Piketty",
+    "Stock": 15,
+    "CategoryId": 2
+  }
+]

@@ -1,0 +1,18 @@
+API Endpoints:
+
+Books API
+
+- GET /api/book: Retrieve a list of all books.
+- GET /api/book/{id}: Retrieve a specific book by ID.
+- POST /api/book: Add a new book.
+- PUT /api/book/{id}: Update an existing book.
+- DELETE /api/book/{id}: Delete a book.
+
+Category API
+
+- GET /api/category: Retrieve a list of all categories.
+- GET /api/category/{id}: Retrieve a specific category by ID.
+- POST /api/category: Create a new category.
+- PUT /api/category/{id}: Update an existing category.
+- DELETE /api/category/{id}: Delete an category.
+

@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1,
+    "Name": "Fiction",
+    "Description": "A genre of narrative literature that includes imaginary events and people."
+  },
+  {
+    "Id": 2,
+    "Name": "Science",
+    "Description": "Books related to scientific topics and studies."
+  },
+  {
+    "Id": 3,
+    "Name": "History",
+    "Description": "A collection of books that cover historical events and biographies."
+  }
+]
