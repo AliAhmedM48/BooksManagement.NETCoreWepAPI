@@ -9,11 +9,14 @@ A `.NET Core Web API` project that manages books and their categories using **On
 3. [Architecture](#architecture)
 4. [Features](#features)
 5. [API Endpoints](#api-endpoints)
-   - [Books API](#books-api)
-   - [Category API](#category-api)
+    - [Books API](#books-api)
+    - [Category API](#category-api)
 6. [Setup and Installation](#setup-and-installation)
-7. [Contributing](#contributing)
-8. [License](#license)
+7. [Screenshots](#screenshots)
+    - [Database Diagram](#database-diagram)
+    - [Swagger UI](#swagger-ui)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## 🌟 Project Overview
 
@@ -121,6 +124,15 @@ Follow these steps to set up the project locally:
    ```bash
    http://localhost:{port}/swagger
    ```
+
+## 🖼️ Screenshots
+
+### 🗄️ Database Diagram
+![image](https://github.com/user-attachments/assets/a6ec251d-072c-4cef-9913-9938c722bfe6)
+
+
+### 📄 Swagger UI
+![image](https://github.com/user-attachments/assets/9634ad39-d4ff-42cd-8159-e08104d3fe5b)
 
 ## 🤝 Contributing
 
